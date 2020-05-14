@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "/", // change to /build if deploying local
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
