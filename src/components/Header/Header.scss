@@ -1,0 +1,30 @@
+.Header {
+  height: 3em;
+  background-color: #b50202;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    list-style: none;
+    display: flex;
+    order: 1;
+    width: 100%;
+    margin-top: 15px;
+    li {
+      margin-right: 3em;
+      a {
+        color: #e6d602;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        &:hover {
+          filter: drop-shadow(0 3px black);
+        }
+        &.active {
+          text-decoration: underline;
+          text-decoration-color: white;
+        }
+      }
+    }
+  }
+}

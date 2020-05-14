@@ -1,0 +1,16 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100%;
+  footer {
+    height: 2em;
+    background-color: #b50202;
+  }
+  overflow-y: auto;
+  overflow-x: hidden;
+  > * {
+    height: 100%;
+  }
+}
